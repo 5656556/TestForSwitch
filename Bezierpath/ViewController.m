@@ -98,7 +98,6 @@
 - (void)carouselDidEndScrollingAnimation:(iCarousel *)carousel
 {
     if (_segmentControl) {
-        _segmentControl.contentView
         [_segmentControl endMoveIndex:carousel.currentItemIndex];
     }
 }
