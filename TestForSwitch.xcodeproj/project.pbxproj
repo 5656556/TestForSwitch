@@ -94,7 +94,7 @@
 		2C7ED93C1A85DCA900E9264F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
 		2C7ED93E1A85DDD500E9264F /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		2C7ED93F1A85DDD500E9264F /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
-		2C8F61C01A8357F700DE4866 /* Bezierpath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bezierpath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F61C01A8357F700DE4866 /* TestForSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8F61C41A8357F700DE4866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8F61C51A8357F700DE4866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C8F61C71A8357F700DE4866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		2C8F61CE1A8357F700DE4866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C8F61D01A8357F700DE4866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C8F61D31A8357F700DE4866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2C8F61D91A8357F800DE4866 /* BezierpathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierpathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F61D91A8357F800DE4866 /* TestForSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8F61DE1A8357F800DE4866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8F61DF1A8357F800DE4866 /* BezierpathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierpathTests.m; sourceTree = "<group>"; };
 		2C8F61E91A83582500DE4866 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		2C8F61B71A8357F700DE4866 = {
 			isa = PBXGroup;
 			children = (
-				2C8F61C21A8357F700DE4866 /* Bezierpath */,
+				2C8F61C21A8357F700DE4866 /* TestForSwitch */,
 				2C8F61DC1A8357F800DE4866 /* BezierpathTests */,
 				2C8F61C11A8357F700DE4866 /* Products */,
 			);
@@ -175,13 +175,13 @@
 		2C8F61C11A8357F700DE4866 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C8F61C01A8357F700DE4866 /* Bezierpath.app */,
-				2C8F61D91A8357F800DE4866 /* BezierpathTests.xctest */,
+				2C8F61C01A8357F700DE4866 /* TestForSwitch.app */,
+				2C8F61D91A8357F800DE4866 /* TestForSwitchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C8F61C21A8357F700DE4866 /* Bezierpath */ = {
+		2C8F61C21A8357F700DE4866 /* TestForSwitch */ = {
 			isa = PBXGroup;
 			children = (
 				2CAF7C701AA432640073706C /* iCarousel.h */,
@@ -220,6 +220,7 @@
 				2C8F61D21A8357F700DE4866 /* LaunchScreen.xib */,
 				2C8F61C31A8357F700DE4866 /* Supporting Files */,
 			);
+			name = TestForSwitch;
 			path = Bezierpath;
 			sourceTree = "<group>";
 		};
@@ -252,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C8F61BF1A8357F700DE4866 /* Bezierpath */ = {
+		2C8F61BF1A8357F700DE4866 /* TestForSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C8F61E31A8357F800DE4866 /* Build configuration list for PBXNativeTarget "Bezierpath" */;
+			buildConfigurationList = 2C8F61E31A8357F800DE4866 /* Build configuration list for PBXNativeTarget "TestForSwitch" */;
 			buildPhases = (
 				2C8F61BC1A8357F700DE4866 /* Sources */,
 				2C8F61BD1A8357F700DE4866 /* Frameworks */,
@@ -264,14 +265,14 @@
 			);
 			dependencies = (
 			);
-			name = Bezierpath;
+			name = TestForSwitch;
 			productName = Bezierpath;
-			productReference = 2C8F61C01A8357F700DE4866 /* Bezierpath.app */;
+			productReference = 2C8F61C01A8357F700DE4866 /* TestForSwitch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C8F61D81A8357F800DE4866 /* BezierpathTests */ = {
+		2C8F61D81A8357F800DE4866 /* TestForSwitchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C8F61E61A8357F800DE4866 /* Build configuration list for PBXNativeTarget "BezierpathTests" */;
+			buildConfigurationList = 2C8F61E61A8357F800DE4866 /* Build configuration list for PBXNativeTarget "TestForSwitchTests" */;
 			buildPhases = (
 				2C8F61D51A8357F800DE4866 /* Sources */,
 				2C8F61D61A8357F800DE4866 /* Frameworks */,
@@ -282,9 +283,9 @@
 			dependencies = (
 				2C8F61DB1A8357F800DE4866 /* PBXTargetDependency */,
 			);
-			name = BezierpathTests;
+			name = TestForSwitchTests;
 			productName = BezierpathTests;
-			productReference = 2C8F61D91A8357F800DE4866 /* BezierpathTests.xctest */;
+			productReference = 2C8F61D91A8357F800DE4866 /* TestForSwitchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C8F61BB1A8357F700DE4866 /* Build configuration list for PBXProject "Bezierpath" */;
+			buildConfigurationList = 2C8F61BB1A8357F700DE4866 /* Build configuration list for PBXProject "TestForSwitch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -318,8 +319,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C8F61BF1A8357F700DE4866 /* Bezierpath */,
-				2C8F61D81A8357F800DE4866 /* BezierpathTests */,
+				2C8F61BF1A8357F700DE4866 /* TestForSwitch */,
+				2C8F61D81A8357F800DE4866 /* TestForSwitchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +393,7 @@
 /* Begin PBXTargetDependency section */
 		2C8F61DB1A8357F800DE4866 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C8F61BF1A8357F700DE4866 /* Bezierpath */;
+			target = 2C8F61BF1A8357F700DE4866 /* TestForSwitch */;
 			targetProxy = 2C8F61DA1A8357F800DE4866 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -534,7 +535,7 @@
 				INFOPLIST_FILE = BezierpathTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bezierpath.app/Bezierpath";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForSwitch.app/TestForSwitch";
 			};
 			name = Debug;
 		};
@@ -549,14 +550,14 @@
 				INFOPLIST_FILE = BezierpathTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bezierpath.app/Bezierpath";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForSwitch.app/TestForSwitch";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C8F61BB1A8357F700DE4866 /* Build configuration list for PBXProject "Bezierpath" */ = {
+		2C8F61BB1A8357F700DE4866 /* Build configuration list for PBXProject "TestForSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C8F61E11A8357F800DE4866 /* Debug */,
@@ -565,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C8F61E31A8357F800DE4866 /* Build configuration list for PBXNativeTarget "Bezierpath" */ = {
+		2C8F61E31A8357F800DE4866 /* Build configuration list for PBXNativeTarget "TestForSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C8F61E41A8357F800DE4866 /* Debug */,
@@ -574,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C8F61E61A8357F800DE4866 /* Build configuration list for PBXNativeTarget "BezierpathTests" */ = {
+		2C8F61E61A8357F800DE4866 /* Build configuration list for PBXNativeTarget "TestForSwitchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C8F61E71A8357F800DE4866 /* Debug */,
